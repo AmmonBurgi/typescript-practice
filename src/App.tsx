@@ -6,7 +6,9 @@ import TextField from './TextField';
 const App: React.FC = () => {
   return (
     <div className="App">
-      <TextField  />
+      <Counter>
+        {(count, setCount) => }
+      </Counter>
     </div>
   )
 }
